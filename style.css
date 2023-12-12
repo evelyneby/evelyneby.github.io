@@ -51,7 +51,7 @@ h1 {
 }
 
 .seccion-texto {
-  font-size: 1rem;
+  font-size: 15px;
 }
 
 .texto-experiencia {
@@ -100,12 +100,12 @@ h1 {
 /* Sobre mi */
 
 .sobre-mi {
-  height: 500px;
+  height: 400px;
   padding: 10px;
 }
 
 .sobre-mi .contenedor {
-  max-width: 600px;
+  max-width: 990px;
   text-align: center;
 }
 
@@ -403,6 +403,6 @@ footer {
 
 @media screen and (min-width: 700px) {
   .hero-inferior-imagen {
-    max-width: 600px;
+    max-width: 300px;
   }
 }
