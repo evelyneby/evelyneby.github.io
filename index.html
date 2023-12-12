@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Evelyn Hernández Martínez">
+    <meta name="description" content="Portafolio de desarrollo web de Evelyn Hernández">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Evelyn Hernández Martínez | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/code.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/profire.jpg" alt="Foto de Jane Doe">
+        <h1>Hola, soy Evelyn Hernández Martínez</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Sobre mi</h2>
+        <p class="seccion-texto">
+          Soy una apasionada del desarrollo web, me gusta llevar a cabo proyectos que cumplan las expectativas de los usuarios. Desde mi primer "Hola mundo" en Java durante la escuela media superior, mi fascinación por la codificación no ha hecho más que crecer.
+          <br>
+          A punto de completar mi carrera en Ingeniería en Tecnologías de la Información y Comunicación (TIC), he explorado diversas ramas dentro de esta disciplina. Aunque mi enfoque principal es el desarrollo web, no me limito a ello y estoy dispuesta a adquirir habilidades en otras áreas relacionadas con las TIC´s
+          <br>
+          Además de mis habilidades técnicas, mi interés se extiende al marketing digital y al análisis de datos. Estoy emocionado/a por seguir aprendiendo y contribuir al mundo tecnológico de maneras innovadoras y significativas.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-3">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Front-End </p>
+            <p class="texto-experiencia"> 
+              Desde la escuela media superior he desarrollado sitios web de caracter responsivos siendo llamativos y funcionales.
+              No he desaprovechado ninguna oportunidad para tomar cualquier curso que expanda mi conocimiento en esta área, de ejemplo: apoyarme en cursos como lo es Tecnolochicas. A continuación se enlistan las Tecnologías que manejo.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-danger">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-warning">JavaScript</span>
+              <span class="badge text-bg-primary">Bootstrap</span>
+              <span class="badge text-bg-dark">Metronic</span>
+              <span class="badge text-bg-secondary">Viho</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-3">
+            <i class="bi bi-person-video"></i>
+            <p class="experiencia-titulo">Desarrollo Back-End</p>
+            <p class="texto-experiencia"> 
+              Me gusta aprender la funcionalidad de los programas por lo que me ha llevado a explorar diversos lenguajes de programación. Me gusta aprenderlos aunque sea lo más básico y ponerlos en práctica en proyectos. Mis habilidades son más para el desarrollo en está área. A continuación se enlistan los lenguajes que manejo.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-danger">Java</span>
+              <span class="badge text-bg-primary">Python</span>
+              <span class="badge text-bg-warning">Php</span>
+              <span class="badge text-bg-primary">Laravel</span>
+              <span class="badge text-bg-success">C++</span>
+              <span class="badge text-bg-dark">C#</span>
+              <span class="badge text-bg-secondary">Solidity</span>
+              <span class="badge text-bg-danger">TypeScript</span>
+              <span class="badge text-bg-primary">Node.js</span>
+              <span class="badge text-bg-warning">MYSQL</span>
+
+            </div>
+          </div>
+
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-3">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudios</p>
+            <p class="texto-experiencia">
+              Soy próxima a egresar mi carrera de Ingeniería en Tecnologías de la Información y Comunicaciones con especialidad en transformación digital además de especialidades que tienen que ver con tendencias tecnologicas actuales como: computo en la nube, sistemas embebidos, Inteligencia de negocios y  Ingeniería de conocimientos.
+              Durante mi carrera desarrolle varios proyectos y participe en concursos como: Inovatec.
+                
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-danger">Tecnolochicas PRO</span>
+              <span class="badge text-bg-primary">Ing. TIC´s</span>
+              <span class="badge text-bg-warning">Técnico programación</span>
+            </div>
+          </div>
+
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-3">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Otras experiencias</p>
+            <p class="texto-experiencia">
+              También he ampliado conocimientos en otras áreas. En general me gusta saber un poco de todo por lo que trato de mantenerme al tanto de las tendencias tecnológicas y sus actualizaciones. A continuación enlisto otras áreas de conocimientos. 
+                
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-danger">Ubuntu</span>
+              <span class="badge text-bg-primary">Windows</span>
+              <span class="badge text-bg-warning">Word</span>
+              <span class="badge text-bg-success">Excel</span>
+              <span class="badge text-bg-dark">Marketing Digital</span>
+              <span class="badge text-bg-secondary">Redes</span>
+              <span class="badge text-bg-danger">Iot</span>
+              <span class="badge text-bg-primary">Asesora</span>
+              <span class="badge text-bg-warning">Análitica web</span>
+              <span class="badge text-bg-success">Chatfuel</span>
+              <span class="badge text-bg-dark">Servicios azure</span>
+              <span class="badge text-bg-secondary">Postgrest</span>
+              <span class="badge text-bg-danger">Datagrip</span>
+              <span class="badge text-bg-primary">Github</span>
+              <span class="badge text-bg-warning">Vercel</span>
+              <span class="badge text-bg-success">Switching, Routing and Wireless</span>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado a lo largo del camino...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.png" alt="Clon de google">
+              <div class="overlay">
+                <p>Clon de google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/evelyneby/google-clone" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://google-clone-psi-six.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.png" alt="Primer sitio Tecnolochicas">
+              <div class="overlay">
+                <p>Primer sitio Tecnolochicas</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/evelyneby/primer-sitio-tecnolochicas" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://primer-sitio-tecnolochicas.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.png" alt="Sistema administrativo recursos humanos">
+              <div class="overlay">
+                <p>Sistema para Recusos Humanos (Repositorio privado)</p>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto4.png" alt="Tienda online de artesanias con blockchain">
+              <div class="overlay">
+                <p>Tienda online de artesanias con blockchain (Repositorio privado)</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/evelyneby/Tienda-de-artesanias-con-verificaci-n-de-compras" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <!-- <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto5.png" alt="Chatbot Huellitas">
+              <div class="overlay">
+                <p>Chatbot Huellitas</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/evelyneby/Chatbot-tienda-de-mascotas-con-servicios-de-azure" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://bothuellitas-appweb.azurewebsites.net/api/messages" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto6.png" alt="Juego de leds con arduino">
+              <div class="overlay">
+                <p>Juego de leds con arduino</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/evelyneby/Juego-de-leds-con-arduino" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <!-- <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/evelyneby" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-dark">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de personas sobre mis trabajos y proyectos...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.png" alt="Foto de Anel">
+              <p class="testimonio-texto">Evelyn muestra un rápido progreso en la adquisición de habilidades técnicas clave y una gran disposición para colaborar en proyectos. Su actitud positiva y su voluntad de aprender constantemente son cualidades valiosas en el campo de la programación. No tengo dudas de que Evelyn seguirá creciendo y haciendo contribuciones significativas como desarrolladora frontend en el futuro.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Anael</p>
+                <p class="cargo">Mentora en Tecnolochicas PRO</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.png" alt="Foto de Alex">
+              <p class="testimonio-texto">
+                Evelyn tiene potencial en el área de desarrollo, su disposición de aprendizaje y su habilidad de ser autodidacta la han llevado a ser un excelente residente.
+                Se destaca por ser perseverante y también no temer a aprender de nuevas tecnologías. Fue un gusto trabajar con ella en el sistema administrativo de la empresa Tecnorampa.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Alex Santacruz</p>
+                <p class="cargo">Programador en TecnoRampa</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.png" alt="Foto de Francisco">
+              <p class="testimonio-texto">
+                Sobresale como una estudiante excepcional, destacando por su perseverancia y creatividad. Posee habilidades en el desarrollo de software y demuestra un compromiso en explorar y aprovechar al máximo las tecnologías que domina. Desde mi perspectiva como profesor, observo un potencial notable en ella. 
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Francisco Trejo</p>
+                <p class="cargo">Ing. Sistemas y docente del ITSJR</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              Medios de comunicación
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Correo electrónico.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:mhevelyn21@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprende a aprender.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/evelyneby" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="www.linkedin.com/in/evelyn-hernández-martínez-a3a87b197" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://instagram.com/ibe.mtz?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:mhevelyn21@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Evelyn Hernández Martínez (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- TypeScript -->
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
