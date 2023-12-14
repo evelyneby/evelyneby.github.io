@@ -44,3 +44,8 @@ El texto de la página web está escrito en español, al igual que las clases y 
 ## Visualización de sitio
 
 Se visualiza el sitio dando clic [Portafolio](https://evelyneby.github.io/).
+
+
+## 🔗 Más
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/evelyneby/evelyneby.github.io)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/evelyn-hern%C3%A1ndez-mart%C3%ADnez-a3a87b197/)
