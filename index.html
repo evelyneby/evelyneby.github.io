@@ -53,6 +53,16 @@
           </ul>
         </div>
       </div>
+      <!-- Contador de Visitas -->
+      <div class="contador-visitas">
+        <div class="container text-center">
+          <div class="contador-contenido">
+            <i class="bi bi-eye-fill"></i>
+            <span>Visitas: </span>
+            <span id="contador" class="numero-contador">0</span>
+          </div>
+        </div>
+      </div>
     </nav>
 
     <!-- Seccion Hero -->
@@ -605,8 +615,20 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <!-- TypeScript -->
-        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-        <script src="main.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+    <script>
+    // Contador simple con localStorage
+    function actualizarContador() {
+      let visitas = localStorage.getItem('visitas-portafolio') || 0;
+      visitas = parseInt(visitas) + 1;
+      localStorage.setItem('visitas-portafolio', visitas);
+      document.getElementById('contador').textContent = visitas;
+    }
+
+    // Ejecutar al cargar la página
+    window.addEventListener('load', actualizarContador);
+    </script>
 
   </body>
 </html>
